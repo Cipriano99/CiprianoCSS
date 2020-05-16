@@ -136,9 +136,11 @@ Estilo de lista:
    class = "estilo-lista-quadrado"
    class = "estilo-lista-decimal"
    
-Centralizar itens:
-  class = "centralizado"
-  
+Centralizar item:
+  class = "item-centralizado"
+
+Alinhamento centralizado:
+  class = "alinhamento-centralizado"
 
 Preenchimento de tela:
   Largura
@@ -155,8 +157,11 @@ Preenchimento de tela:
     class = "altura-total"
     class = "altura-automatica"
 
-Imagem de fundo centralizada
-  class = "imagem-fundo-centralizada" (URL editável no arquivo cipriano.css)
+Imagem de fundo 
+  class = "imagem-fundo" (URL editável no arquivo cipriano.css)
+
+Imagem de fundo fixa
+  class = "imagem-fundo-fixa" (URL editável no arquivo cipriano.css)
 
 
 Texto em colunas:
