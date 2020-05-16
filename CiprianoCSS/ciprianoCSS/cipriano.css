@@ -496,11 +496,15 @@
 
 /* Centralizar item(s) - align-content - justify-content */
 
-.centralizado {
+.item-centralizado {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.alinhamento-centralizado {
+    justify-content: space-between;
 }
 
 
@@ -549,9 +553,14 @@
 
 /* Imagem de fundo */
 
-.imagem-fundo-centralizada {
+.imagem-fundo {
     background: url("../imagens/imagemDeFundo.jpg") no-repeat center;
-    background-size: 100%;
+    background-size: auto;
+}
+
+.imagem-fundo-fixa {
+    background: url("../imagens/imagemDeFundo.jpg") no-repeat fixed center;
+    background-size: auto;
 }
 
 
@@ -771,8 +780,7 @@
     float: left;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 0.75rem;
-    min-height: 1px;
+    padding: 0 0.2rem 20px;
 }
 
 .linha .coluna.tamanho1 {
@@ -882,6 +890,13 @@
         align-content: center;
         justify-content: center;
     }
+}
+
+.conteudo-coluna {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
@@ -1041,6 +1056,11 @@ nav .logo {
 
 /* Utilitários */
 
+.caixa {
+    width: auto;
+    height: auto;
+}
+
 .caixa-horizontal {
     height: auto;
 }
@@ -1067,4 +1087,9 @@ nav .logo {
 .caixa-muito-grande {
     width: 800px;
     height: 800px;
+}
+
+textarea {
+    border: none;
+    resize: none
 }
