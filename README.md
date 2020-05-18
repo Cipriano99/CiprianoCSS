@@ -226,3 +226,29 @@
   + #### Imagem fixa:
 
     > class = "imagem-fundo-fixa" (URL editável no arquivo cipriano.css)
+
+* ### Colunas
+  Linha possue dimensão de tamanho 12, ou seja, sub-divisível em 12 partes e o somatório dos componentes (tamanho) devem ser no total de 12:
+    >class = "coluna tamanho(1 a 12)"
+    
+     ##### Observação:
+     >Visualise exeplos no arquivo "index.html".
+
+* ### Mídias
+	+ #### Imgens e vídeos responsivos:
+    > class = "imagem-responsiva"  
+    class = "video-responsivo"
+
+  + #### Quadro de vídeo:
+    >class = "video-container"
+		
+* ### Tabelas
+  + #### Centralizar texto
+    >class = "texto-centralizado"
+  
+  + #### Estilo de tabela:
+    >class = "listrada"  
+    class = "realçado"
+
+* ### Container:
+    >class = "container"
