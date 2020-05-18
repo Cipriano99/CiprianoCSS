@@ -193,7 +193,7 @@
     Preenchimento 50%
       >class = "largura-media"
 	
-		Preenchimento 75%
+	  Preenchimento 75%
       >class = "largura-grande"
 
     Preenchimento 100%
