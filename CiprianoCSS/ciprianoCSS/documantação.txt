@@ -136,11 +136,19 @@ Estilo de lista:
    class = "estilo-lista-quadrado"
    class = "estilo-lista-decimal"
    
-Centralizar item:
-  class = "item-centralizado"
 
-Alinhamento centralizado:
-  class = "alinhamento-centralizado"
+Alinhamento:
+   
+  Centralizar item:
+    class = "item-centralizado"
+
+  Direita:
+    class = "direita"
+
+  Esquerda:
+    class = "esquerda"
+
+
 
 Preenchimento de tela:
   Largura
