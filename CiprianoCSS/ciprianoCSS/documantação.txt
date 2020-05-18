@@ -103,6 +103,14 @@ Tamanho de fonte
   Muito grande
     class = "texto-fonte-muito-grande"
 
+Texto em colunas:
+  class = "texto-coluna-simples"
+  class = "texto-coluna-dupla"
+  class = "texto-coluna-tripla"
+  class = "texto-coluna-quadrupla"
+
+Divisor de colunas: (sem variações claro e escuro)
+  class = "divisor-coluna-(nome da cor)"
 
 
 
@@ -136,6 +144,9 @@ Estilo de lista:
    class = "estilo-lista-quadrado"
    class = "estilo-lista-decimal"
    
+Orientação de lista:
+   class = "orientação-lista-horizontal"
+
 
 Alinhamento:
    
@@ -172,32 +183,6 @@ Imagem de fundo fixa
   class = "imagem-fundo-fixa" (URL editável no arquivo cipriano.css)
 
 
-Texto em colunas:
-  class = "texto-coluna-simples"
-  class = "texto-coluna-dupla"
-  class = "texto-coluna-tripla"
-  class = "texto-coluna-quadrupla"
-
-Divisor de colunas: (sem variações claro e escuro)
-  class = "divisor-coluna-(nome da cor)"
-
-
-Configurações Úteis 
-  Esconder componente:
-    class = "esconder"
-  Mostrar componente:
-    class = "mostrar"
-    
-  Fixar na esquerda:
-    class = "esquerda"
-  Fixar na direira:
-    class = "direita"
-
-  Container:
-    class = "container"
-    
-
-
 Colunas:
   Linha possue dimensão de tamanho 12, ou seja, sub-divisível em 12 partes e o somatório dos componentes (tamanho) devem ser no total de 12:
     class = "coluna tamanho(1 a 12)"
@@ -219,3 +204,8 @@ Tabelas
   Estilo de tabela:
     class = "listrada"
     class = "realçado"
+
+
+Container:
+    class = "container"
+  
