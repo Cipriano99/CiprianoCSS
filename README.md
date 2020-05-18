@@ -1,6 +1,6 @@
 # CiprianoCSS
 
-## CiprianoSS, um framework de CSS em português destinado a auxiliar iniciantes no desenvolvimento web a compreenderem como o CSS funciona em uma página html.
+## CiprianoSS, um framework de CSS em português destinado a auxiliar iniciantes no desenvolvimento web a compreenderem como o CSS funciona em páginas html.
 
 ### Estilização dos componentes
 
