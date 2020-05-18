@@ -1,6 +1,6 @@
 # CiprianoCSS
 
-## CiprianoSS, um framework em português destinado a auxiliar iniciantes no desenvolvimento web a compreenderem como o CSS funciona em uma página html.
+## CiprianoSS, um framework de CSS em português destinado a auxiliar iniciantes no desenvolvimento web a compreenderem como o CSS funciona em uma página html.
 
 ### Estilização dos componentes
 
@@ -194,7 +194,7 @@
       >class = "largura-media"
 	
 		Preenchimento 75%
-      >class = "largura-grnade"
+      >class = "largura-grande"
 
     Preenchimento 100%
       >class = "largura-total"
@@ -211,7 +211,7 @@
       >class = "altura-media"
 
     Preenchimento 75%
-      >class = "altura-grnade"
+      >class = "altura-grande"
 
     Preenchimento 100%
       >class = "altura-total"
@@ -227,10 +227,10 @@
 
     > class = "imagem-fundo-fixa" (URL editável no arquivo cipriano.css)
 
-* ### Colunas
+* ### Colunas:  
   Linha possue dimensão de tamanho 12, ou seja, sub-divisível em 12 partes e o somatório dos componentes (tamanho) devem ser no total de 12:
     >class = "coluna tamanho(1 a 12)"
-    
+
      ##### Observação:
      >Visualise exeplos no arquivo "index.html".
 
@@ -241,7 +241,7 @@
 
   + #### Quadro de vídeo:
     >class = "video-container"
-		
+
 * ### Tabelas
   + #### Centralizar texto
     >class = "texto-centralizado"
