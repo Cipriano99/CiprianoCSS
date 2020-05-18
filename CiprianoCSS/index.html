@@ -200,7 +200,7 @@
                     <textarea cols="60" rows="9" readonly class="borda-fina">
 <!-- 
 
-    <div class="texto-fonte-(maiusculo, minusculo, primeira-letra-maiuscula ou normal )">
+    <div class="texto-fonte-(maiusculo, minusculo, primeira-letra-maiuscula ou normal)">
         Seu texto aqui
     </div>
 
@@ -539,13 +539,13 @@
                         <div class=" conteudo-coluna texto-fonte-media">
                             <ul class="estilo-lista-decimal">
                                 <li>
-                                    Numérico
+                                    Decimal
                                 </li>
                                 <li>
-                                    Numérico
+                                    Decimal
                                 </li>
                                 <li>
-                                    Numérico
+                                    Decimal
                                 </li>
                             </ul>
                         </div>
@@ -576,10 +576,10 @@
                             <br>
                         </div>
                         <br><br>
-                        <textarea cols="60" rows="16" readonly class="borda-fina">
+                        <textarea cols="60" rows="17" readonly class="borda-fina">
 <!-- 
 
-    <ul class="estilo-lista-normal">
+    <ul class="estilo-lista-(normal, quadrado, circulo, decimal ou nenhum">
         <li>
             Item de lista
         </li>
@@ -604,10 +604,178 @@
         <br><br>
 
         <div class="texto-fonte-muito-grande ">
+            Orientação de listas
+            <br><br>
+
+            <div class="texto-fonte-grande">
+                Orientação padrão: vertical
+                <br>
+                <ul class="estilo-lista-nenhum">
+                    <li>
+                        Item de lista
+                    </li>
+                    <li>
+                        Item de lista
+                    </li>
+                    <li>
+                        Item de lista
+                    </li>
+                </ul>
+            </div>
+
+            <div class="item-centralizado">
+                <div class=" largura-media fundo-preto item-centralizado sombra">
+                    <div class="texto-fonte-muito-grande texto-branco">
+                        <br> Código
+                        <br>
+                        <br>
+                    </div>
+                    <br><br>
+                    <textarea cols="60" rows="18" readonly class="borda-fina">
+<!-- 
+ 
+    *Orientação vertical é definida por padrão
+
+<ul>
+    <li>
+        Item de lista
+    </li>
+    <li>
+        Item de lista
+    </li>
+    <li>
+        Item de lista
+    </li>
+</ul>
+
+-->
+                    </textarea>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="texto-fonte-grande">
+                Orientação horizontal
+                <br>
+                <ul class="orientação-lista-horizontal">
+                    <li>
+                        Item de lista
+                    </li>
+                    <li>
+                        Item de lista
+                    </li>
+                    <li>
+                        Item de lista
+                    </li>
+                </ul>
+            </div>
+            <br>
+
+            <div class="item-centralizado">
+                <div class=" largura-media fundo-preto item-centralizado sombra">
+                    <div class="texto-fonte-muito-grande texto-branco">
+                        <br> Código
+                        <br>
+                        <br>
+                    </div>
+                    <br><br>
+                    <textarea cols="60" rows="17" readonly class="borda-fina">
+<!-- 
+
+<ul class="orientação-lista-horizontal">
+    <li>
+        Item de lista
+    </li>
+    <li>
+        Item de lista
+    </li>
+    <li>
+        Item de lista
+    </li>
+</ul>
+
+-->
+                    </textarea>
+                </div>
+            </div>
+
+            <br><br>
+        </div>
+
+        <br><br>
+
+        <div class="divisor-preto "></div>
+
+        <br><br>
+
+        <div class="texto-fonte-muito-grande ">
+            Links
+            <br><br>
+
+            <div class="texto-fonte-grande">
+                Link padrão
+                <br><br>
+                <a href="https://google.com">Goole</a>
+            </div>
+
+            <div class="item-centralizado">
+                <div class=" largura-media fundo-preto item-centralizado sombra">
+                    <div class="texto-fonte-muito-grande texto-branco">
+                        <br> Código
+                        <br>
+                        <br>
+                    </div>
+                    <br><br>
+                    <textarea cols="60" rows="6" readonly class="borda-fina">
+<!-- 
+ 
+    <a href="(link aqui)">(Descrição do link)</a>
+
+-->
+                    </textarea>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="texto-fonte-grande">
+                Link sem estilo
+                <br><br>
+                <a href="https://google.com" class="link-sem-estilo">Goole</a>
+            </div>
+
+            <div class="item-centralizado">
+                <div class=" largura-media fundo-preto item-centralizado sombra">
+                    <div class="texto-fonte-muito-grande texto-branco">
+                        <br> Código
+                        <br>
+                        <br>
+                    </div>
+                    <br><br>
+                    <textarea cols="60" rows="7" readonly class="borda-fina">
+<!-- 
+ 
+    <a href="(link aqui)"  class="link-sem-estilo">(Descrição do link)</a>
+
+-->
+                    </textarea>
+                </div>
+            </div>
+
+            <br><br>
+        </div>
+
+        <br><br>
+
+        <div class="divisor-preto "></div>
+
+        <br><br>
+
+        <div class="texto-fonte-muito-grande ">
             Centralizar item
             <br><br>
-            <div class="item-centralizado ">
 
+            <div class="item-centralizado ">
                 <table class="largura-meida texto-centralizado borda-fina borda-pouco-arredondada ">
                     <thead>
                         <tr>
@@ -635,9 +803,106 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
 
+            <br><br>
+
+            <div class="item-direita">
+                <table class="largura-meida texto-centralizado borda-fina borda-pouco-arredondada ">
+                    <thead>
+                        <tr>
+                            <th>Título coluna 1</th>
+                            <th>Título coluna 2</th>
+                            <th>Título coluna 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Item 1 coluna 1</td>
+                            <td>Item 1 coluna 2</td>
+                            <td>Item 1 coluna 3</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2 coluna 1</td>
+                            <td>Item 2 coluna 2</td>
+                            <td>Item 2 coluna 3</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3 coluna 1</td>
+                            <td>Item 3 coluna 2</td>
+                            <td>Item 3 coluna 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <br><br><br><br><br><br><br>
+
+            <div class="item-esquerda">
+                <table class="largura-meida texto-centralizado borda-fina borda-pouco-arredondada ">
+                    <thead>
+                        <tr>
+                            <th>Título coluna 1</th>
+                            <th>Título coluna 2</th>
+                            <th>Título coluna 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Item 1 coluna 1</td>
+                            <td>Item 1 coluna 2</td>
+                            <td>Item 1 coluna 3</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2 coluna 1</td>
+                            <td>Item 2 coluna 2</td>
+                            <td>Item 2 coluna 3</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3 coluna 1</td>
+                            <td>Item 3 coluna 2</td>
+                            <td>Item 3 coluna 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br>
+
+        <div class="item-centralizado">
+            <div class=" largura-media fundo-preto item-centralizado sombra">
+                <div class="texto-fonte-muito-grande texto-branco">
+                    <br> Código
+                    <br>
+                    <br>
+                </div>
+                <br><br>
+                <textarea cols="60" rows="8" readonly class="borda-fina">
+<!-- 
+
+    <div class="item-(centralizado, direita ou esquerda)">
+        Conteúdo aqui
+    </div>
+
+-->
+                </textarea>
             </div>
             <br><br>
+        </div>
+
+        <br><br><br>
+
+        <div class="divisor-preto "></div>
+
+        <br><br>
+
+        <div class="texto-fonte-muito-grande ">
+            Centralizar texto
+            <br><br>
+
             <div class="texto-centralizado ">
                 <div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -655,12 +920,8 @@
                     <br>
                 </div>
                 <br><br>
-                <textarea cols="60" rows="12" readonly class="borda-fina">
+                <textarea cols="60" rows="8" readonly class="borda-fina">
 <!-- 
-
-    <div class="item-centralizado">
-        Conteúdo aqui
-    </div>
 
     <div class="texto-centralizado">
         Seu texto aqui
@@ -942,8 +1203,6 @@
 
         <br><br>
 
-
-
         <div class="texto-fonte-muito-grande ">
             <br> Colunas
             <br><br>
@@ -957,7 +1216,7 @@
                     <div class=" conteudo-coluna texto-fonte-media borda-fina borda-pouco-arredondada texto-centralizado ">
                         Coluna de tamanho 4 (de um total de 12)
                         <br><br><br>
-                        <br>No mobile este componente terá dimenção horizontal completa
+                        <br>No celular este componente terá dimenção horizontal completa
                     </div>
                 </div>
 
@@ -966,7 +1225,7 @@
                         Coluna de tamanho 4 (de um total de 12)
                         <br><br> Altura automática seguindo o conteúdo e quebra de linha automática
                         <br><br><br>
-                        <br>No mobile este componente terá dimenção horizontal completa
+                        <br>No celular este componente terá dimenção horizontal completa
                     </div>
                 </div>
 
@@ -975,7 +1234,7 @@
                         Coluna de tamanho 4 (de um total de 12)
                         <br><br> Altura automática seguindo o conteúdo e quebra de linha automática. Altura automática seguindo o conteúdo e quebra de linha automática
                         <br><br><br>
-                        <br>No mobile este componente terá dimenção horizontal completa
+                        <br>No celular este componente terá dimenção horizontal completa
                     </div>
                 </div>
             </div>
@@ -992,7 +1251,7 @@
                         Coluna de tamanho 5 (de um total de 12)
                         <br><br> Altura automática seguindo o conteúdo e quebra de linha automática
                         <br><br><br>
-                        <br>No mobile este componente terá dimenção horizontal completa
+                        <br>No celular este componente terá dimenção horizontal completa
                     </div>
                 </div>
                 <div class="coluna tamanho7 ">
@@ -1000,7 +1259,7 @@
                         Coluna de tamanho 7 (de um total de 12)
                         <br><br> Altura automática seguindo o conteúdo e quebra de linha automática. Altura automática seguindo o conteúdo e quebra de linha automática
                         <br><br><br>
-                        <br>No mobile este componente terá dimenção horizontal completa
+                        <br>No celular este componente terá dimenção horizontal completa
                     </div>
                 </div>
             </div>
@@ -1071,7 +1330,7 @@
                     <textarea cols="60" rows="7" readonly class="borda-fina">
 <!-- 
 
-    <img class="imagem-responsiva " src="(diretório da imagem local)" alt="">
+    <img class="imagem-responsiva" src="(diretório da imagem local)" alt="">
 
 -->
                         </textarea>
@@ -1117,6 +1376,7 @@
         <div class="divisor-preto "></div>
 
         <br><br>
+
         <div class="texto-fonte-muito-grande ">
             Tabelas
             <div class="texto-fonte-grande ">
@@ -1214,6 +1474,10 @@
 
         <br><br><br>
 
+        <div class="divisor-preto "></div>
+
+        <br><br>
+
         <div class="texto-fonte-muito-grande ">
             Container
             <div class="texto-fonte-grande ">
@@ -1229,9 +1493,31 @@
                 </div>
             </div>
         </div>
+
+
+        <br><br><br><br>
+
+        <div class="divisor-preto "></div>
+
+        <br><br>
+
+        <div class="texto-fonte-muito-grande ">
+            Barra de navegação
+        </div>
+        <br>
+
+        <nav class="barra-navegação borda-pouco-arredondada">
+            <a href="" class="logo link-sem-estilo texto-branco">Logo</a>
+            <ul class="direita estilo-lista-nenhum orientação-lista-horizontal texto-fonte-grande">
+                <li><a href="" class="link-sem-estilo texto-branco">Item da barra</a></li>
+                <li><a href="" class="link-sem-estilo texto-branco">Item da barra</a></li>
+                <li><a href="" class="link-sem-estilo texto-branco">Item da barra</a></li>
+            </ul>
+        </nav>
+
     </div>
 
-    <br><br><br>
+    <br><br><br><br><br>
 
 </body>
 
