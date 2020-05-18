@@ -664,35 +664,6 @@
     column-rule-color: #8B4513;
 }
 
-
-/* Configurações Úteis */
-
-.esconder {
-    display: none;
-}
-
-.mostrar {
-    display: block;
-}
-
-.esquerda {
-    float: left;
-}
-
-.direita {
-    float: right;
-}
-
-.circular {
-    border-radius: 50%;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%;
-}
-
 .divisor-preto {
     height: 1px;
     overflow: hidden;
@@ -1046,6 +1017,12 @@ table.realçado>tbody>tr:hover {
         Componentes 
 
  */
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
 
 nav {
     color: #fff;
