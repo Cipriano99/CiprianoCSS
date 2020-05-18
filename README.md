@@ -33,7 +33,13 @@
       > class = "fundo-(nome da cor)-(opcional: claro / escuro)"  
         class = "fundo-branco"  
         class = "fundo-verde-claro"  
-        class = "fundo-azul-escuro"  
+        class = "fundo-azul-escuro"
+
+  + #### Divisor: (sem variações claro e escuro)
+	
+    Para definir a cor do divisor:
+      >	class = "dividor-(nome da cor)"  
+      	class = "divisor-azul"
 
 * ### Texto  
 
