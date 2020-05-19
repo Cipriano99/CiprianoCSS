@@ -253,9 +253,7 @@
     >class = "video-container"
 
 * ### Tabelas
-  + #### Centralizar texto
-    >class = "texto-centralizado"
-  
+
   + #### Estilo de tabela:
     >class = "listrada"  
     class = "realçado"
