@@ -498,7 +498,7 @@
 
 .orientação-lista-horizontal li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 
@@ -662,6 +662,27 @@
 .divisor-coluna-marrom {
     column-rule-style: solid;
     column-rule-color: #8B4513;
+}
+
+
+/* Configurações Úteis */
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
 }
 
 .divisor-preto {
@@ -1018,17 +1039,11 @@ table.realçado>tbody>tr:hover {
 
  */
 
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%;
-}
-
 nav {
     color: #fff;
     background-color: #595959;
     width: 100%;
-    height: 60px;
+    height: auto;
     line-height: 60px;
 }
 
@@ -1044,6 +1059,19 @@ nav .logo {
     font-size: 2.1rem;
     padding: 0;
     margin-left: 8px;
+}
+
+nav li:hover {
+    background-color: rgba(242, 242, 242, 0.2);
+}
+
+ul {
+    margin: 0 0;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -1085,8 +1113,4 @@ nav .logo {
 textarea {
     border: none;
     resize: none
-}
-
-ul {
-    margin: 0 0;
 }
