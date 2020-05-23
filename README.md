@@ -76,7 +76,7 @@
 
   + #### Formatação de texto
 
-    Texto maiúculo:  
+    Texto maiúsculo:  
       >class = "texto-maiusculo"
       
     Texto minúsculo:  
