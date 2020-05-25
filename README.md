@@ -265,7 +265,3 @@
 
 * ### Container:
     >class = "container"
-
-
-### Componentes
-
