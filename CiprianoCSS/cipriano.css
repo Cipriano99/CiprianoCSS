@@ -497,6 +497,7 @@
 /* Orientação de listas */
 
 .orientação-lista-horizontal li {
+    min-width: 40px;
     display: inline-block;
     margin-right: 5px;
 }
@@ -567,6 +568,18 @@
 
 .altura-automatica {
     height: auto;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width: 601px) {
+    .largura-pequena,
+    .largura-media,
+    .largura-grande,
+    .largura-total {
+        width: 85vw;
+    }
 }
 
 
@@ -882,7 +895,16 @@
     .linha .coluna.tamanho1,
     .linha .coluna.tamanho2,
     .linha .coluna.tamanho3,
-    .linha .coluna.tamanho4,
+    .linha .coluna.tamanho4 {
+        width: 50%;
+        margin-top: 5px;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
     .linha .coluna.tamanho5,
     .linha .coluna.tamanho6,
     .linha .coluna.tamanho7,
@@ -896,7 +918,6 @@
         margin-left: auto;
         left: auto;
         right: auto;
-        display: flex;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
@@ -1036,7 +1057,6 @@ table.realçado>tbody>tr:hover {
 /*
  
         Componentes 
-
  */
 
 
@@ -1073,6 +1093,7 @@ table.realçado>tbody>tr:hover {
     padding-right: 10px;
     height: 20px;
     cursor: pointer;
+    font-size: medium;
 }
 
 .botão-medio {
@@ -1081,6 +1102,7 @@ table.realçado>tbody>tr:hover {
     padding-right: 10px;
     height: 30px;
     cursor: pointer;
+    font-size: large;
 }
 
 .botão-grande {
@@ -1089,6 +1111,7 @@ table.realçado>tbody>tr:hover {
     padding-right: 10px;
     height: 50px;
     cursor: pointer;
+    font-size: x-large;
 }
 
 
