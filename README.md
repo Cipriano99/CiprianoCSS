@@ -28,9 +28,11 @@
 
     Para definir a cor de um texto:  
       > class = "texto-(nome da cor)-(opcional: claro / escuro)"  
-        class = "texto-branco"  
+      
+    Exemplos:
+      > class = "texto-branco"  
         class = "texto-verde-claro"  
-        class = "texto-azul-escuro"          
+        class = "texto-azul-escuro"
 
   + #### Fundo(background):
 
