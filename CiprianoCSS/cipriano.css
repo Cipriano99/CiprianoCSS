@@ -520,11 +520,25 @@
 }
 
 .item-direita {
+    display: flex;
     float: right;
 }
 
 .item-esquerda {
+    display: flex;
     float: left;
+}
+
+.espaçamento-entre-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.espaçamento-ao-redor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -1087,8 +1101,8 @@ table.realçado>tbody>tr:hover {
 /* Botões */
 
 .botão-pequeno {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 10px;
     padding-right: 10px;
     height: 20px;
@@ -1097,16 +1111,21 @@ table.realçado>tbody>tr:hover {
 }
 
 .botão-medio {
-    padding-top: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 30px;
+    min-width: 50px;
+    max-width: 160px;
+    min-height: 30px;
     cursor: pointer;
     font-size: large;
+    text-align: center;
 }
 
 .botão-grande {
     padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
     height: 50px;
