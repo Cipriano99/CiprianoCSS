@@ -1216,39 +1216,6 @@ table.realçado>tbody>tr:hover {
 
 /* Utilitários */
 
-.caixa {
-    width: auto;
-    height: auto;
-}
-
-.caixa-horizontal {
-    height: auto;
-}
-
-.caixa-vertical {
-    width: auto;
-}
-
-.caixa-pequena {
-    width: 100px;
-    height: 100px;
-}
-
-.caixa-media {
-    width: 300px;
-    height: 300px;
-}
-
-.caixa-grande {
-    width: 500px;
-    height: 500px;
-}
-
-.caixa-muito-grande {
-    width: 800px;
-    height: 800px;
-}
-
 textarea {
     border: none;
     resize: none
