@@ -200,6 +200,14 @@
 
 	  > class = "esquerda"
 
+  + #### Espaçamento entre itens:
+
+	  > class = "espaçamento-entre-itens"
+
+  + #### Espaçamento ao redor dos itens:
+
+	  > class = "espaçamento-ao-redor"
+
 * ### Preenchimento de tela
 
   + #### Preenchimento horizontal
