@@ -10,7 +10,7 @@
 ### Iniciando com o CiprianoCSS
 * ##### 1. Faça o download/fork do repositório;
 * ##### 2. Crie seu arquivo "index.html" no diretório principal;
-* ##### 3. Adicione os links de comunicação entre o HTML e o CSS no(s) arquivo(s) criado(s) dentro da tag head:  
+* ##### 3. Adicione os links de comunicação entre o HTML e o CSS dentro da tag head no HTML no(s) arquivo(s) criado(s):  
 ```html
 
   <link href="./ciprianocss/cipriano.css" type="text/css" rel="stylesheet" media="screen,projection" />
