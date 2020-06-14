@@ -33,6 +33,30 @@
         
        ##### Observação:
        >Cores que não possuem opção 'claro' ou 'escuro':  
-        Preto, branco, dourado e marrom.     
+        Preto, branco, dourado e marrom.  
+  + #### Texto:
+
+    Para definir a cor de um texto:  
+      > class = "texto-(nome da cor)-(opcional: claro / escuro)"  
+      
+    Exemplos:
+      > class = "texto-branco"  
+        class = "texto-verde-claro"  
+        class = "texto-azul-escuro"
+
+  + #### Fundo(background):
+
+    Para definir a cor de fundo:
+      > class = "fundo-(nome da cor)-(opcional: claro / escuro)"  
+        class = "fundo-branco"  
+        class = "fundo-verde-claro"  
+        class = "fundo-azul-escuro"
+
+  + #### Divisor: (sem variações claro e escuro)
+	
+    Para definir a cor do divisor:
+      >	class = "dividor-(nome da cor)"  
+      	class = "divisor-azul"
+
 
 #### Visualize a apresentação de toda a estilização dos componentes: [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
