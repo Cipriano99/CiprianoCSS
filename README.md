@@ -5,7 +5,16 @@
   + #### Alterações importantes:
 	  * ##### Site de apresentação da estilização dos componentes do [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
   
+### Iniciando com o CiprianoCSS
+* ##### 1. Faça o download/fork do repositório;
+* ##### 2. Crie seu arquivo "index.html" no diretório principal;
+* ##### 3. Adicione os links de comunicação entre o HTML e o CSS no(s) arquivo(s) criado(s) dentro da tag head:  
+```html
 
+  <link href="./ciprianocss/cipriano.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./ciprianocss/responsivo.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+```
 
 ### Estilização dos componentes
 
