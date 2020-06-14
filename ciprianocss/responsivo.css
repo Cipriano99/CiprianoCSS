@@ -1,0 +1,91 @@
+@media screen and (max-width: 601px) {
+  .largura-pequena, .largura-media, .largura-grande, .largura-total {
+    width: 85vw;
+  }
+  .container {
+    width: 85%;
+  }
+  .linha .coluna.tamanho1, .linha .coluna.tamanho2, .linha .coluna.tamanho3 {
+    width: 50%;
+    margin-top: 5px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .linha .coluna.tamanho4, .linha .coluna.tamanho5, .linha .coluna.tamanho6, .linha .coluna.tamanho7, .linha .coluna.tamanho8, .linha .coluna.tamanho9, .linha .coluna.tamanho10, .linha .coluna.tamanho11, .linha .coluna.tamanho12 {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+  table.tabela-responsiva {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+    /* sort out borders */
+  }
+  table.tabela-responsiva td:empty:before {
+    content: '\00a0';
+  }
+  table.tabela-responsiva th, table.tabela-responsiva td {
+    margin: 0;
+    vertical-align: top;
+  }
+  table.tabela-responsiva th {
+    text-align: left;
+  }
+  table.tabela-responsiva thead {
+    display: block;
+    float: left;
+  }
+  table.tabela-responsiva thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+  }
+  table.tabela-responsiva thead tr th::before {
+    content: "\00a0";
+  }
+  table.tabela-responsiva tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  table.tabela-responsiva tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  table.tabela-responsiva th {
+    display: block;
+    text-align: right;
+  }
+  table.tabela-responsiva td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left;
+  }
+  table.tabela-responsiva tr {
+    border-bottom: none;
+    padding: 0 10px;
+  }
+  table.tabela-responsiva thead {
+    border: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}
