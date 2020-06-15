@@ -68,8 +68,5 @@
       	class = "divisor-azul"
 
 
-<<<<<<< HEAD
+
 #### Visualize a apresentação de toda a estilização dos componentes: [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
-=======
-#### Visualize a apresentação de toda a estilização dos componentes: [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
->>>>>>> d10da17b88451dc0ee8f0cd2328463bf0b15d456
