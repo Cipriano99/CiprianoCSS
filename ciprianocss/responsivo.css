@@ -1,35 +1,6 @@
-@media screen and (max-width: 601px) {
-  .largura-pequena, .largura-media, .largura-grande, .largura-total {
-    width: 85vw;
-  }
-  .container {
-    width: 85%;
-  }
-  .linha .coluna.tamanho1, .linha .coluna.tamanho2, .linha .coluna.tamanho3 {
-    width: 50%;
-    margin-top: 5px;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
-  .linha .coluna.tamanho4, .linha .coluna.tamanho5, .linha .coluna.tamanho6, .linha .coluna.tamanho7, .linha .coluna.tamanho8, .linha .coluna.tamanho9, .linha .coluna.tamanho10, .linha .coluna.tamanho11, .linha .coluna.tamanho12 {
-    width: 100%;
-    margin-top: 5px;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-  }
-}
-
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 80%;
   }
   table.tabela-responsiva {
     width: 100%;
@@ -87,5 +58,201 @@
   table.tabela-responsiva thead {
     border: 0;
     border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .barra-navegacao {
+    height: 50px;
+  }
+  .navegacao {
+    display: none;
+  }
+  .um, .dois, .tres {
+    height: 5px;
+    width: 100%;
+    margin: 5px;
+    transition-duration: 300ms;
+  }
+  .menu {
+    min-height: 30px;
+    width: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+    top: 0;
+  }
+  .barra-navegacao.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .barra-navegacao.on .navegacao {
+    display: block;
+  }
+  .barra-navegacao.on .menu {
+    position: absolute;
+    right: 0;
+    top: 15;
+    margin-right: 40px;
+  }
+  .barra-navegacao.on .menu .um {
+    margin-top: 12px;
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  .barra-navegacao.on .menu .dois {
+    opacity: 0;
+  }
+  .barra-navegacao.on .menu .tres {
+    transform: rotate(-45deg) translate(14px, -14px);
+  }
+  .barra-navegacao.on .navegacao ul li {
+    text-align: center;
+    display: block;
+    transition-duration: 500ms;
+    font-size: 3.2rem;
+    line-height: 3.0rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .barra-navegacao.on .navegacao ul li {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  .largura-pequena, .largura-media, .largura-grande, .largura-total {
+    width: 85vw;
+  }
+  .container {
+    width: 85%;
+  }
+  .colunas2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .colunas2 .c1l1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .colunas2 .c1l2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .colunas2 .c2l1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .colunas2 .c2l2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .linha .coluna.tamanho1, .linha .coluna.tamanho2, .linha .coluna.tamanho3 {
+    width: 50%;
+    margin-top: 5px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .linha .coluna.tamanho4, .linha .coluna.tamanho5, .linha .coluna.tamanho6, .linha .coluna.tamanho7, .linha .coluna.tamanho8, .linha .coluna.tamanho9, .linha .coluna.tamanho10, .linha .coluna.tamanho11, .linha .coluna.tamanho12 {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  /** Tamanho de fonte - font-size*/
+  .texto-fonte-pequena {
+    font-size: 1.4rem;
+  }
+  .texto-fonte-media {
+    font-size: 1.8rem;
+  }
+  .texto-fonte-grande {
+    font-size: 2.6rem;
+  }
+  .texto-fonte-muito-grande {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .barra-navegacao.on .navegacao ul li {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  /** Tamanho de fonte - font-size*/
+  .texto-fonte-pequena {
+    font-size: 1.3rem;
+  }
+  .texto-fonte-media {
+    font-size: 1.6rem;
+  }
+  .texto-fonte-grande {
+    font-size: 2.4rem;
+  }
+  .texto-fonte-muito-grande {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .barra-navegacao.on .navegacao ul li {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  /** Tamanho de fonte - font-size*/
+  .texto-fonte-pequena {
+    font-size: 1.2rem;
+  }
+  .texto-fonte-media {
+    font-size: 1.6rem;
+  }
+  .texto-fonte-grande {
+    font-size: 2.2rem;
+  }
+  .texto-fonte-muito-grande {
+    font-size: 2.8rem;
+  }
+  /* Botões */
+  .botao-pequeno {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .botao-medio {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    min-width: 30px;
+    max-width: 120px;
+    min-height: 20px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .botao-grande {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 2rem;
   }
 }
