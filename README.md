@@ -5,8 +5,11 @@
   
   + #### Recentes atualizações:  
     - ##### Renomeação de diretórios e de códigos removendo acentos das vogais e alterando 'ç' para 'c' 
+<<<<<<< HEAD
     - ##### Novo arquivo JavaScript "cipriano.js"
       + ##### Funcionalidade adicionada: auxilia na responsividade do menu em dispositivos móveis.
+=======
+>>>>>>> d10da17b88451dc0ee8f0cd2328463bf0b15d456
     
   + #### Site de apresentação da estilização dos componentes do [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
   
@@ -18,6 +21,7 @@
 
   <link href="./ciprianocss/cipriano.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="./ciprianocss/responsivo.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<<<<<<< HEAD
 
 ```
 * ##### 4. Adicione o link de comunicação do arquivo JavaScript com a página no final da tag body no HTML no(s) arquivo(s) criado(s):  
@@ -25,6 +29,9 @@
 
     <script src="./ciprianojs/cipriano.js"></script>
 
+=======
+
+>>>>>>> d10da17b88451dc0ee8f0cd2328463bf0b15d456
 ```
 
 ### Estilização dos componentes
@@ -42,8 +49,7 @@
         
        ##### Observação:
        >Cores que não possuem opção 'claro' ou 'escuro':  
-        Preto, branco, dourado e marrom.     
-
+        Preto, branco, dourado e marrom.  
   + #### Texto:
 
     Para definir a cor de um texto:  
@@ -69,4 +75,8 @@
       	class = "divisor-azul"
 
 
+<<<<<<< HEAD
 #### Visualize a apresentação de toda a estilização dos componentes: [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
+=======
+#### Visualize a apresentação de toda a estilização dos componentes: [CiprianoCSS: https://cipriano99.github.io/](https://cipriano99.github.io/)
+>>>>>>> d10da17b88451dc0ee8f0cd2328463bf0b15d456
